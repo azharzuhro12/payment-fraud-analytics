@@ -1,4 +1,4 @@
-# 💳 Payment Analytics & Fraud Detection System
+# Payment Analytics & Fraud Detection System
 
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![PySpark](https://img.shields.io/badge/Big%20Data-PySpark-E25A1C?logo=apachespark&logoColor=white)](https://spark.apache.org/)
@@ -10,15 +10,15 @@
 
 ---
 
-## 🎬 Demo
+## Demo
 
 ![Live Application Walkthrough](reports/figures/demo.gif)
 
-> 📹 **Video Resolusi Penuh:** [reports/figures/demo.mp4](reports/figures/demo.mp4)
+> Video Resolusi Penuh: [reports/figures/demo.mp4](reports/figures/demo.mp4)
 
 ---
 
-## 📖 Project Introduction & Overview
+## Project Introduction & Overview
 
 Platform intelijen transaksi pembayaran, deteksi fraud real-time, dan segmentasi risiko merchant terintegrasi yang dirancang untuk penyedia jasa pembayaran (**mesin EDC, QRIS, POS terminal, dan Online Payment Gateway**).
 
@@ -31,7 +31,7 @@ Platform ini mengolah **50.000 transaksi** dengan nilai settlement sebesar **Rp 
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Automated Data Ingestion & Indexing:** Pipeline ETL otomatis menyimpan data transaksi ke database SQLite & Parquet dengan skema indeks teroptimasi untuk kueri analitik cepat.
 - **Big Data Feature Engineering (PySpark & Pandas):** Agregasi rolling window 24 jam per merchant (kecepatan & volume transaksi), fitur siklikal waktu transaksi (`sin`/`cos`), serta rasio pengurasan saldo akun.
@@ -47,7 +47,7 @@ Platform ini mengolah **50.000 transaksi** dengan nilai settlement sebesar **Rp 
 
 ---
 
-## 🏗️ System Architecture & Data Flow
+## System Architecture & Data Flow
 
 ```mermaid
 flowchart TD
@@ -69,7 +69,7 @@ flowchart TD
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Bahasa & Pemrosesan Data:** Python 3.11+, SQL (SQLite3), Apache Spark (PySpark), PyArrow (Parquet), Pandas, NumPy
 - **Machine Learning & Statistik:** Scikit-Learn, XGBoost, LightGBM, Joblib
@@ -80,7 +80,7 @@ flowchart TD
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 payment-fraud-analytics/
@@ -123,7 +123,7 @@ payment-fraud-analytics/
 
 ---
 
-## ⚙️ Installation & Configuration
+## Installation & Configuration
 
 ### 1. Prasyarat Sistem
 - Python 3.11 atau lebih baru
@@ -152,7 +152,7 @@ bash run_all.sh
 
 ---
 
-## 🚀 Usage & API Documentation
+## Usage & API Documentation
 
 ### 1. Menjalankan Dashboard Streamlit
 ```bash
@@ -212,7 +212,7 @@ curl -X POST "http://localhost:8000/predict" \
 
 ---
 
-## 🧠 AI/ML Implementation Details
+## AI/ML Implementation Details
 
 ### 1. Preprocessing & Pencegahan Kebocoran Data (Data Leakage)
 Menggunakan `ColumnTransformer` dan `Pipeline` dari Scikit-Learn:
@@ -238,7 +238,7 @@ $$\text{Total Cost} = (\text{FN} \times \text{Cost}_{\text{Missed Fraud}}) + (\t
 
 ---
 
-## 📈 Model Evaluation & Performance
+## Model Evaluation & Performance
 
 Evaluasi dilakukan menggunakan **3-Fold Stratified Cross-Validation** (40.000 data latih) dan dievaluasi pada **Held-Out Test Set** (10.000 transaksi independen, rasio fraud 1.36%):
 
@@ -274,7 +274,7 @@ Evaluasi dilakukan menggunakan **3-Fold Stratified Cross-Validation** (40.000 da
 
 ---
 
-## 🧪 Testing & Quality Assurance
+## Testing & Quality Assurance
 
 Projek ini dilengkapi dengan pengujian unit otomatis menggunakan **Pytest** untuk memvalidasi integritas data, logika matematis rekayasa fitur, dan kompatibilitas skema payload API:
 
@@ -290,7 +290,7 @@ PYTHONPATH=. pytest tests/ -v
 
 ---
 
-## 🚢 Deployment & Production
+## Deployment & Production
 
 Aplikasi telah disiapkan untuk lingkungan produksi dengan **Docker**:
 
