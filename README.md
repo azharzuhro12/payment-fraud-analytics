@@ -5,6 +5,7 @@
 [![Stacking Ensemble](https://img.shields.io/badge/ML-Stacking%20Ensemble%20(XGB%2BLGB%2BRF)-10B981)](https://scikit-learn.org/)
 [![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Tableau Public](https://img.shields.io/badge/BI-Tableau%20Public%20Dashboard-E97627?logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/azhar.zuhro/viz/PaymentAnalyticsFraudDetectionDashboard/aymentAnalyticsFraudDetectionDashboard)
 [![Docker](https://img.shields.io/badge/Deployment-Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![Pytest](https://img.shields.io/badge/Tests-Passing-22C55E?logo=pytest&logoColor=white)](#)
 
@@ -14,7 +15,8 @@
 
 ![Live Application Walkthrough](reports/figures/demo.gif)
 
-> Video Resolusi Penuh: [reports/figures/demo.mp4](reports/figures/demo.mp4)
+- **Live Tableau Public Dashboard:** [Payment Analytics & Fraud Detection Dashboard — Tableau Public](https://public.tableau.com/app/profile/azhar.zuhro/viz/PaymentAnalyticsFraudDetectionDashboard/aymentAnalyticsFraudDetectionDashboard)
+- **Video Demo Resolusi Penuh (MP4):** [reports/figures/demo.mp4](reports/figures/demo.mp4)
 
 ---
 
@@ -42,7 +44,7 @@ Platform ini mengolah **50.000 transaksi** dengan nilai settlement sebesar **Rp 
   - `STEP_UP_CHALLENGE` (Probabilitas 0.15 - 0.37) — Pemicu verifikasi 2FA OTP / biometrik pada transaksi mencurigakan.
   - `BLOCK` (Probabilitas >= 0.37) — Penolakan langsung dan pembekuan token terminal.
 - **Unsupervised Merchant Risk Clustering (K-Means + PCA):** Segmentasi 1.500 merchant ke dalam 4 arketipe perilaku bisnis (**Silhouette Score: 0.6623**).
-- **Interactive Executive Dashboard (Streamlit):** Visualisasi KPI dinamis dengan filter multi-dimensi (kota, kanal terminal, kategori bisnis), treemap kerugian, tren 24 jam, dan daftar pantau audit merchant prioritas.
+- **Interactive Executive Dashboard (Streamlit & Tableau Public):** Visualisasi KPI dinamis dengan filter multi-dimensi (kota, kanal terminal, kategori bisnis), treemap kerugian, tren 24 jam, daftar pantau audit merchant prioritas, serta dashboard interaktif yang telah dipublikasikan di [Tableau Public](https://public.tableau.com/app/profile/azhar.zuhro/viz/PaymentAnalyticsFraudDetectionDashboard/aymentAnalyticsFraudDetectionDashboard).
 - **Production REST API (FastAPI):** Endpoint inferensi sub-detik (< 15ms) dengan validasi skema Pydantic dan rincian faktor risiko (*explainable risk factors*).
 
 ---
