@@ -10,3 +10,6 @@ venv/
 # Heavy regenerable raw/SQLite data (pipeline scripts & Tableau/Model artifacts are tracked)
 data/payments.db
 data/raw/transactions.csv
+demo.webm
+
+
