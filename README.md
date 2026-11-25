@@ -13,7 +13,9 @@
 
 ## Demo
 
-![Live Application Walkthrough](reports/figures/demo.gif)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/azharzuhro12/payment-fraud-analytics/main/reports/figures/demo.gif" alt="Live Application Walkthrough" width="100%">
+</p>
 
 - **Live Tableau Public Dashboard:** [Payment Analytics & Fraud Detection Dashboard — Tableau Public](https://public.tableau.com/app/profile/azhar.zuhro/viz/PaymentAnalyticsFraudDetectionDashboard/aymentAnalyticsFraudDetectionDashboard)
 - **Video Demo Resolusi Penuh (MP4):** [reports/figures/demo.mp4](reports/figures/demo.mp4)
