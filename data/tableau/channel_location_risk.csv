@@ -1,0 +1,280 @@
+terminal_type,merchant_category,location,total_transactions,total_volume_idr,fraud_cases,fraud_rate_pct,fraud_loss_idr
+EDC_MOBILE,digital_services,Bandung,325,418737765.15,12,3.692,13840281.71
+EDC_MOBILE,digital_services,Denpasar,196,258033692.18,8,4.082,13185401.47
+EDC_MOBILE,digital_services,Jakarta Pusat,462,711735271.86,16,3.463,42781589.84
+EDC_MOBILE,digital_services,Jakarta Selatan,614,821823809.77,12,1.954,27653991.43
+EDC_MOBILE,digital_services,Makassar,169,169454445.25,7,4.142,4868706.56
+EDC_MOBILE,digital_services,Medan,229,304376487.98,10,4.367,10499250.35
+EDC_MOBILE,digital_services,Semarang,131,207647439.73,6,4.58,19693335.24
+EDC_MOBILE,digital_services,Surabaya,382,547933772.48,13,3.403,57243356.98
+EDC_MOBILE,electronics,Bandung,408,930960674.53,9,2.206,32989797.72
+EDC_MOBILE,electronics,Denpasar,302,643722019.74,9,2.98,36356814.66
+EDC_MOBILE,electronics,Jakarta Pusat,620,1242830125.45,12,1.935,46075880.93
+EDC_MOBILE,electronics,Jakarta Selatan,919,2105418566.25,26,2.829,56637088.8
+EDC_MOBILE,electronics,Makassar,249,505540458.02,10,4.016,79786644.41
+EDC_MOBILE,electronics,Medan,351,825774333.07,8,2.279,32076604.87
+EDC_MOBILE,electronics,Semarang,231,404328781.77,4,1.732,8964421.3
+EDC_MOBILE,electronics,Surabaya,504,996525874.84,14,2.778,51516183.9
+EDC_MOBILE,fashion_apparel,Bandung,314,665552506.73,10,3.185,41938084.53
+EDC_MOBILE,fashion_apparel,Denpasar,199,581088605.73,7,3.518,7290324.24
+EDC_MOBILE,fashion_apparel,Jakarta Pusat,425,966568440.43,14,3.294,33607655.79
+EDC_MOBILE,fashion_apparel,Jakarta Selatan,591,1586460780.62,16,2.707,23145636.11
+EDC_MOBILE,fashion_apparel,Makassar,152,341069853.12,0,0.0,0.0
+EDC_MOBILE,fashion_apparel,Medan,213,448145045.6,6,2.817,24688009.81
+EDC_MOBILE,fashion_apparel,Semarang,165,368302596.17,4,2.424,3603282.16
+EDC_MOBILE,fashion_apparel,Surabaya,341,720715311.5,6,1.76,1303679.49
+EDC_MOBILE,food_beverage,Bandung,134,86923574.76,3,2.239,722168.24
+EDC_MOBILE,food_beverage,Denpasar,95,43489275.15,2,2.105,1141524.43
+EDC_MOBILE,food_beverage,Jakarta Pusat,170,88965252.03,8,4.706,4329527.4
+EDC_MOBILE,food_beverage,Jakarta Selatan,235,138988402.21,10,4.255,3719791.81
+EDC_MOBILE,food_beverage,Makassar,66,29005741.38,2,3.03,2470990.31
+EDC_MOBILE,food_beverage,Medan,80,49825247.65,7,8.75,7114263.38
+EDC_MOBILE,food_beverage,Semarang,37,27098121.95,0,0.0,0.0
+EDC_MOBILE,food_beverage,Surabaya,132,62414889.35,7,5.303,7768866.16
+EDC_MOBILE,fuel_gas_station,Bandung,20,3195908.38,0,0.0,0.0
+EDC_MOBILE,fuel_gas_station,Denpasar,12,1866203.23,0,0.0,0.0
+EDC_MOBILE,fuel_gas_station,Jakarta Pusat,31,5449250.33,0,0.0,0.0
+EDC_MOBILE,fuel_gas_station,Jakarta Selatan,56,10177390.41,0,0.0,0.0
+EDC_MOBILE,fuel_gas_station,Makassar,13,2339784.1,0,0.0,0.0
+EDC_MOBILE,fuel_gas_station,Medan,9,1794147.98,0,0.0,0.0
+EDC_MOBILE,fuel_gas_station,Semarang,6,2886194.83,0,0.0,0.0
+EDC_MOBILE,fuel_gas_station,Surabaya,24,5945129.64,0,0.0,0.0
+EDC_MOBILE,retail_grocery,Bandung,105,282748599.54,3,2.857,5599535.23
+EDC_MOBILE,retail_grocery,Denpasar,57,130292069.69,1,1.754,10947440.22
+EDC_MOBILE,retail_grocery,Jakarta Pusat,151,252327845.41,2,1.325,9412583.32
+EDC_MOBILE,retail_grocery,Jakarta Selatan,216,438871401.15,2,0.926,556105.32
+EDC_MOBILE,retail_grocery,Makassar,58,193680838.13,2,3.448,35520269.02
+EDC_MOBILE,retail_grocery,Medan,80,161302247.25,3,3.75,25107808.9
+EDC_MOBILE,retail_grocery,Semarang,51,119530132.89,1,1.961,365332.78
+EDC_MOBILE,retail_grocery,Surabaya,127,239483380.15,2,1.575,9154351.36
+EDC_MOBILE,travel_hospitality,Bandung,54,30329634.63,3,5.556,1810063.55
+EDC_MOBILE,travel_hospitality,Denpasar,40,21227301.69,3,7.5,454264.62
+EDC_MOBILE,travel_hospitality,Jakarta Pusat,98,77204880.05,4,4.082,4868177.03
+EDC_MOBILE,travel_hospitality,Jakarta Selatan,115,87256530.71,5,4.348,2758412.52
+EDC_MOBILE,travel_hospitality,Makassar,36,40108491.37,3,8.333,13260777.0
+EDC_MOBILE,travel_hospitality,Medan,54,31063456.21,2,3.704,1464612.64
+EDC_MOBILE,travel_hospitality,Semarang,33,18381045.81,1,3.03,202685.08
+EDC_MOBILE,travel_hospitality,Surabaya,70,58822966.42,6,8.571,9159343.1
+EDC_STATIC,digital_services,Bandung,85,121183804.19,2,2.353,888031.29
+EDC_STATIC,digital_services,Denpasar,44,40662748.47,0,0.0,0.0
+EDC_STATIC,digital_services,Jakarta Pusat,106,128381678.83,0,0.0,0.0
+EDC_STATIC,digital_services,Jakarta Selatan,145,152089670.29,5,3.448,3131358.72
+EDC_STATIC,digital_services,Makassar,41,106151158.59,0,0.0,0.0
+EDC_STATIC,digital_services,Medan,44,44752927.27,1,2.273,512822.34
+EDC_STATIC,digital_services,Semarang,23,18574225.9,0,0.0,0.0
+EDC_STATIC,digital_services,Surabaya,86,64231043.41,1,1.163,425332.21
+EDC_STATIC,electronics,Bandung,847,3121669821.22,8,0.945,54037757.9
+EDC_STATIC,electronics,Denpasar,483,1835732439.69,0,0.0,0.0
+EDC_STATIC,electronics,Jakarta Pusat,1195,4543754353.22,7,0.586,31201773.72
+EDC_STATIC,electronics,Jakarta Selatan,1491,6070349077.24,13,0.872,97641315.24
+EDC_STATIC,electronics,Makassar,403,1463759991.52,3,0.744,10659104.18
+EDC_STATIC,electronics,Medan,537,2037870051.08,5,0.931,26282971.17
+EDC_STATIC,electronics,Semarang,360,1415444076.65,1,0.278,5361969.62
+EDC_STATIC,electronics,Surabaya,900,3787361896.31,3,0.333,30084587.64
+EDC_STATIC,fashion_apparel,Bandung,610,2080075364.63,2,0.328,40485868.7
+EDC_STATIC,fashion_apparel,Denpasar,360,1473014459.1,3,0.833,46495725.74
+EDC_STATIC,fashion_apparel,Jakarta Pusat,884,3206854636.47,0,0.0,0.0
+EDC_STATIC,fashion_apparel,Jakarta Selatan,1085,4375682395.72,9,0.829,68690478.45
+EDC_STATIC,fashion_apparel,Makassar,302,1157394222.02,4,1.325,24080497.34
+EDC_STATIC,fashion_apparel,Medan,405,1744885855.3,1,0.247,1271259.25
+EDC_STATIC,fashion_apparel,Semarang,266,1116401375.03,4,1.504,10973369.08
+EDC_STATIC,fashion_apparel,Surabaya,682,2686506768.0,6,0.88,30905670.38
+EDC_STATIC,food_beverage,Bandung,336,133194182.69,1,0.298,288685.4
+EDC_STATIC,food_beverage,Denpasar,180,75320560.89,0,0.0,0.0
+EDC_STATIC,food_beverage,Jakarta Pusat,446,149334458.15,1,0.224,185384.28
+EDC_STATIC,food_beverage,Jakarta Selatan,571,217005637.71,4,0.701,720895.9
+EDC_STATIC,food_beverage,Makassar,198,68536659.43,0,0.0,0.0
+EDC_STATIC,food_beverage,Medan,239,88909878.45,4,1.674,8208548.74
+EDC_STATIC,food_beverage,Semarang,146,54265762.25,0,0.0,0.0
+EDC_STATIC,food_beverage,Surabaya,358,137362000.22,0,0.0,0.0
+EDC_STATIC,fuel_gas_station,Bandung,113,19659018.06,0,0.0,0.0
+EDC_STATIC,fuel_gas_station,Denpasar,66,14024275.42,0,0.0,0.0
+EDC_STATIC,fuel_gas_station,Jakarta Pusat,179,30434621.16,1,0.559,334504.52
+EDC_STATIC,fuel_gas_station,Jakarta Selatan,230,42578910.91,0,0.0,0.0
+EDC_STATIC,fuel_gas_station,Makassar,64,15251734.65,0,0.0,0.0
+EDC_STATIC,fuel_gas_station,Medan,91,14279164.47,0,0.0,0.0
+EDC_STATIC,fuel_gas_station,Semarang,59,11190051.56,1,1.695,309274.05
+EDC_STATIC,fuel_gas_station,Surabaya,157,28636042.2,0,0.0,0.0
+EDC_STATIC,retail_grocery,Bandung,682,1592965281.76,4,0.587,18944405.27
+EDC_STATIC,retail_grocery,Denpasar,395,803076716.44,6,1.519,24702914.63
+EDC_STATIC,retail_grocery,Jakarta Pusat,867,1649822683.51,0,0.0,0.0
+EDC_STATIC,retail_grocery,Jakarta Selatan,1146,2169738855.57,6,0.524,24897454.12
+EDC_STATIC,retail_grocery,Makassar,352,713086565.08,1,0.284,2430667.94
+EDC_STATIC,retail_grocery,Medan,424,923083954.59,3,0.708,24500779.14
+EDC_STATIC,retail_grocery,Semarang,292,534666052.75,2,0.685,730099.63
+EDC_STATIC,retail_grocery,Surabaya,768,1517103378.1,2,0.26,541103.17
+EDC_STATIC,travel_hospitality,Bandung,85,64709595.16,0,0.0,0.0
+EDC_STATIC,travel_hospitality,Denpasar,65,40251523.65,0,0.0,0.0
+EDC_STATIC,travel_hospitality,Jakarta Pusat,134,83279407.4,2,1.493,467487.19
+EDC_STATIC,travel_hospitality,Jakarta Selatan,166,114939046.5,0,0.0,0.0
+EDC_STATIC,travel_hospitality,Makassar,45,28156277.05,1,2.222,4794545.57
+EDC_STATIC,travel_hospitality,Medan,62,36394566.93,0,0.0,0.0
+EDC_STATIC,travel_hospitality,Semarang,50,51872373.94,0,0.0,0.0
+EDC_STATIC,travel_hospitality,Surabaya,96,63125307.51,1,1.042,37473.04
+ONLINE_PG,digital_services,Bandung,151,288333088.28,3,1.987,10685918.17
+ONLINE_PG,digital_services,Denpasar,109,146191626.18,3,2.752,3372022.95
+ONLINE_PG,digital_services,Jakarta Pusat,263,405779988.86,12,4.563,11698012.28
+ONLINE_PG,digital_services,Jakarta Selatan,294,406594520.97,8,2.721,27283424.5
+ONLINE_PG,digital_services,Makassar,93,195880589.89,3,3.226,2551277.88
+ONLINE_PG,digital_services,Medan,118,244600045.43,7,5.932,19422648.81
+ONLINE_PG,digital_services,Semarang,74,103913544.91,1,1.351,234252.3
+ONLINE_PG,digital_services,Surabaya,213,324604056.68,6,2.817,43485639.09
+ONLINE_PG,electronics,Bandung,275,564367951.9,10,3.636,17349515.46
+ONLINE_PG,electronics,Denpasar,178,389488076.79,5,2.809,55422180.26
+ONLINE_PG,electronics,Jakarta Pusat,365,757836015.99,9,2.466,26881362.4
+ONLINE_PG,electronics,Jakarta Selatan,482,1079768278.9,12,2.49,23788506.23
+ONLINE_PG,electronics,Makassar,171,318675657.21,6,3.509,15643530.11
+ONLINE_PG,electronics,Medan,196,337692562.02,6,3.061,20363573.09
+ONLINE_PG,electronics,Semarang,119,206156686.96,6,5.042,15849389.83
+ONLINE_PG,electronics,Surabaya,351,829161299.56,5,1.425,6562728.31
+ONLINE_PG,fashion_apparel,Bandung,174,522172460.49,4,2.299,20925842.66
+ONLINE_PG,fashion_apparel,Denpasar,103,227142042.9,4,3.883,7554352.56
+ONLINE_PG,fashion_apparel,Jakarta Pusat,250,499666783.26,6,2.4,41550175.1
+ONLINE_PG,fashion_apparel,Jakarta Selatan,304,710016489.27,16,5.263,39792873.59
+ONLINE_PG,fashion_apparel,Makassar,106,241096202.13,5,4.717,9008304.48
+ONLINE_PG,fashion_apparel,Medan,124,334686376.28,4,3.226,40113320.36
+ONLINE_PG,fashion_apparel,Semarang,83,207127431.94,3,3.614,1882596.78
+ONLINE_PG,fashion_apparel,Surabaya,187,440249837.8,4,2.139,25239670.8
+ONLINE_PG,food_beverage,Bandung,45,45501179.77,2,4.444,21882272.53
+ONLINE_PG,food_beverage,Denpasar,32,16949199.68,0,0.0,0.0
+ONLINE_PG,food_beverage,Jakarta Pusat,74,52386973.54,1,1.351,2425617.57
+ONLINE_PG,food_beverage,Jakarta Selatan,82,38034979.58,4,4.878,676788.3
+ONLINE_PG,food_beverage,Makassar,21,14946111.24,0,0.0,0.0
+ONLINE_PG,food_beverage,Medan,26,17136072.35,1,3.846,265675.12
+ONLINE_PG,food_beverage,Semarang,15,13444577.7,1,6.667,1371264.24
+ONLINE_PG,food_beverage,Surabaya,49,20787553.32,5,10.204,3208349.56
+ONLINE_PG,fuel_gas_station,Bandung,5,657154.48,0,0.0,0.0
+ONLINE_PG,fuel_gas_station,Denpasar,6,847301.94,0,0.0,0.0
+ONLINE_PG,fuel_gas_station,Jakarta Pusat,12,3201724.17,0,0.0,0.0
+ONLINE_PG,fuel_gas_station,Jakarta Selatan,8,1205002.02,0,0.0,0.0
+ONLINE_PG,fuel_gas_station,Makassar,2,387079.03,0,0.0,0.0
+ONLINE_PG,fuel_gas_station,Medan,3,280220.65,0,0.0,0.0
+ONLINE_PG,fuel_gas_station,Surabaya,5,1440633.38,0,0.0,0.0
+ONLINE_PG,retail_grocery,Bandung,45,76393528.6,0,0.0,0.0
+ONLINE_PG,retail_grocery,Denpasar,18,77452783.04,1,5.556,419623.13
+ONLINE_PG,retail_grocery,Jakarta Pusat,67,195587910.62,1,1.493,7629290.95
+ONLINE_PG,retail_grocery,Jakarta Selatan,85,242484758.26,7,8.235,41618908.81
+ONLINE_PG,retail_grocery,Makassar,30,39564513.61,0,0.0,0.0
+ONLINE_PG,retail_grocery,Medan,40,136943458.83,0,0.0,0.0
+ONLINE_PG,retail_grocery,Semarang,20,98804347.57,0,0.0,0.0
+ONLINE_PG,retail_grocery,Surabaya,52,142745295.8,1,1.923,5831189.29
+ONLINE_PG,travel_hospitality,Bandung,25,15640255.83,0,0.0,0.0
+ONLINE_PG,travel_hospitality,Denpasar,16,9672727.64,0,0.0,0.0
+ONLINE_PG,travel_hospitality,Jakarta Pusat,45,49441654.66,2,4.444,5424794.97
+ONLINE_PG,travel_hospitality,Jakarta Selatan,34,29715415.71,3,8.824,5114807.13
+ONLINE_PG,travel_hospitality,Makassar,12,9620093.98,2,16.667,233932.09
+ONLINE_PG,travel_hospitality,Medan,11,8225970.76,0,0.0,0.0
+ONLINE_PG,travel_hospitality,Semarang,8,6280303.88,0,0.0,0.0
+ONLINE_PG,travel_hospitality,Surabaya,23,13371793.06,2,8.696,677683.33
+QRIS_DYNAMIC,digital_services,Bandung,73,74680835.12,0,0.0,0.0
+QRIS_DYNAMIC,digital_services,Denpasar,47,53704880.97,0,0.0,0.0
+QRIS_DYNAMIC,digital_services,Jakarta Pusat,108,123912050.51,0,0.0,0.0
+QRIS_DYNAMIC,digital_services,Jakarta Selatan,125,185101835.33,1,0.8,8161041.34
+QRIS_DYNAMIC,digital_services,Makassar,34,28218760.02,0,0.0,0.0
+QRIS_DYNAMIC,digital_services,Medan,50,73785194.28,0,0.0,0.0
+QRIS_DYNAMIC,digital_services,Semarang,35,39373959.81,0,0.0,0.0
+QRIS_DYNAMIC,digital_services,Surabaya,74,94262605.45,0,0.0,0.0
+QRIS_DYNAMIC,electronics,Bandung,192,648756712.08,1,0.521,1097638.01
+QRIS_DYNAMIC,electronics,Denpasar,92,426042461.4,1,1.087,4270704.18
+QRIS_DYNAMIC,electronics,Jakarta Pusat,235,861568861.88,2,0.851,21715290.05
+QRIS_DYNAMIC,electronics,Jakarta Selatan,338,1150464648.69,2,0.592,6306985.98
+QRIS_DYNAMIC,electronics,Makassar,102,313581544.67,0,0.0,0.0
+QRIS_DYNAMIC,electronics,Medan,118,359976901.14,1,0.847,4520748.14
+QRIS_DYNAMIC,electronics,Semarang,67,213310080.95,0,0.0,0.0
+QRIS_DYNAMIC,electronics,Surabaya,194,598385876.22,1,0.515,1398605.07
+QRIS_DYNAMIC,fashion_apparel,Bandung,115,438369591.23,1,0.87,10978338.96
+QRIS_DYNAMIC,fashion_apparel,Denpasar,67,176922521.38,2,2.985,921287.37
+QRIS_DYNAMIC,fashion_apparel,Jakarta Pusat,168,548871144.68,1,0.595,2820877.92
+QRIS_DYNAMIC,fashion_apparel,Jakarta Selatan,212,600584765.07,3,1.415,8645477.45
+QRIS_DYNAMIC,fashion_apparel,Makassar,73,283294125.85,1,1.37,183006.63
+QRIS_DYNAMIC,fashion_apparel,Medan,98,267374835.98,0,0.0,0.0
+QRIS_DYNAMIC,fashion_apparel,Semarang,49,150825710.78,0,0.0,0.0
+QRIS_DYNAMIC,fashion_apparel,Surabaya,139,489345224.31,0,0.0,0.0
+QRIS_DYNAMIC,food_beverage,Bandung,138,77655739.73,3,2.174,1489317.81
+QRIS_DYNAMIC,food_beverage,Denpasar,81,37070897.81,1,1.235,219261.23
+QRIS_DYNAMIC,food_beverage,Jakarta Pusat,200,127169354.44,2,1.0,374699.97
+QRIS_DYNAMIC,food_beverage,Jakarta Selatan,213,109928900.13,2,0.939,1238850.36
+QRIS_DYNAMIC,food_beverage,Makassar,57,38894789.68,0,0.0,0.0
+QRIS_DYNAMIC,food_beverage,Medan,89,66818995.52,0,0.0,0.0
+QRIS_DYNAMIC,food_beverage,Semarang,59,30329622.46,0,0.0,0.0
+QRIS_DYNAMIC,food_beverage,Surabaya,129,52430059.41,0,0.0,0.0
+QRIS_DYNAMIC,fuel_gas_station,Bandung,34,6179383.07,0,0.0,0.0
+QRIS_DYNAMIC,fuel_gas_station,Denpasar,10,1601355.7,0,0.0,0.0
+QRIS_DYNAMIC,fuel_gas_station,Jakarta Pusat,26,15343821.21,0,0.0,0.0
+QRIS_DYNAMIC,fuel_gas_station,Jakarta Selatan,30,4578962.12,0,0.0,0.0
+QRIS_DYNAMIC,fuel_gas_station,Makassar,9,1061833.74,0,0.0,0.0
+QRIS_DYNAMIC,fuel_gas_station,Medan,19,6681594.05,0,0.0,0.0
+QRIS_DYNAMIC,fuel_gas_station,Semarang,4,806360.96,0,0.0,0.0
+QRIS_DYNAMIC,fuel_gas_station,Surabaya,20,2782088.69,0,0.0,0.0
+QRIS_DYNAMIC,retail_grocery,Bandung,102,217748713.78,0,0.0,0.0
+QRIS_DYNAMIC,retail_grocery,Denpasar,59,119307544.68,0,0.0,0.0
+QRIS_DYNAMIC,retail_grocery,Jakarta Pusat,134,285412988.58,2,1.493,23339544.83
+QRIS_DYNAMIC,retail_grocery,Jakarta Selatan,180,423602483.5,2,1.111,1420995.79
+QRIS_DYNAMIC,retail_grocery,Makassar,61,128965157.46,1,1.639,16434175.76
+QRIS_DYNAMIC,retail_grocery,Medan,61,178201233.14,0,0.0,0.0
+QRIS_DYNAMIC,retail_grocery,Semarang,39,55560576.6,0,0.0,0.0
+QRIS_DYNAMIC,retail_grocery,Surabaya,105,247539629.46,1,0.952,12411259.8
+QRIS_DYNAMIC,travel_hospitality,Bandung,73,47929471.64,0,0.0,0.0
+QRIS_DYNAMIC,travel_hospitality,Denpasar,43,43756108.7,0,0.0,0.0
+QRIS_DYNAMIC,travel_hospitality,Jakarta Pusat,97,63482203.27,0,0.0,0.0
+QRIS_DYNAMIC,travel_hospitality,Jakarta Selatan,129,108736614.95,1,0.775,7395119.75
+QRIS_DYNAMIC,travel_hospitality,Makassar,40,20151788.4,0,0.0,0.0
+QRIS_DYNAMIC,travel_hospitality,Medan,49,41651962.39,0,0.0,0.0
+QRIS_DYNAMIC,travel_hospitality,Semarang,34,17929341.04,0,0.0,0.0
+QRIS_DYNAMIC,travel_hospitality,Surabaya,90,80155657.5,0,0.0,0.0
+QRIS_STATIC,digital_services,Bandung,69,104534269.76,0,0.0,0.0
+QRIS_STATIC,digital_services,Denpasar,41,35608695.33,0,0.0,0.0
+QRIS_STATIC,digital_services,Jakarta Pusat,87,130459863.9,0,0.0,0.0
+QRIS_STATIC,digital_services,Jakarta Selatan,116,96179014.31,0,0.0,0.0
+QRIS_STATIC,digital_services,Makassar,33,34705606.03,0,0.0,0.0
+QRIS_STATIC,digital_services,Medan,37,71857657.03,0,0.0,0.0
+QRIS_STATIC,digital_services,Semarang,31,21816780.42,0,0.0,0.0
+QRIS_STATIC,digital_services,Surabaya,67,67027981.77,0,0.0,0.0
+QRIS_STATIC,electronics,Bandung,187,692293349.77,1,0.535,5017453.07
+QRIS_STATIC,electronics,Denpasar,107,314152226.45,0,0.0,0.0
+QRIS_STATIC,electronics,Jakarta Pusat,272,859981105.08,4,1.471,18052958.81
+QRIS_STATIC,electronics,Jakarta Selatan,352,1234092902.53,0,0.0,0.0
+QRIS_STATIC,electronics,Makassar,96,282805823.03,0,0.0,0.0
+QRIS_STATIC,electronics,Medan,126,488108470.11,1,0.794,2071483.04
+QRIS_STATIC,electronics,Semarang,92,236736326.53,1,1.087,1114199.64
+QRIS_STATIC,electronics,Surabaya,226,785926709.33,2,0.885,6290749.59
+QRIS_STATIC,fashion_apparel,Bandung,145,441150455.08,1,0.69,5547649.19
+QRIS_STATIC,fashion_apparel,Denpasar,92,317076824.04,0,0.0,0.0
+QRIS_STATIC,fashion_apparel,Jakarta Pusat,194,685023770.04,2,1.031,842375.08
+QRIS_STATIC,fashion_apparel,Jakarta Selatan,240,745062695.58,0,0.0,0.0
+QRIS_STATIC,fashion_apparel,Makassar,88,310627944.99,0,0.0,0.0
+QRIS_STATIC,fashion_apparel,Medan,82,282629948.34,0,0.0,0.0
+QRIS_STATIC,fashion_apparel,Semarang,55,170816583.68,1,1.818,1454949.98
+QRIS_STATIC,fashion_apparel,Surabaya,171,534645942.23,1,0.585,5013278.72
+QRIS_STATIC,food_beverage,Bandung,201,63765489.46,1,0.498,114230.34
+QRIS_STATIC,food_beverage,Denpasar,125,41681949.68,1,0.8,598138.52
+QRIS_STATIC,food_beverage,Jakarta Pusat,266,129053163.78,2,0.752,3385568.6
+QRIS_STATIC,food_beverage,Jakarta Selatan,389,130330626.13,1,0.257,42551.65
+QRIS_STATIC,food_beverage,Makassar,91,25472978.43,0,0.0,0.0
+QRIS_STATIC,food_beverage,Medan,136,54946765.07,0,0.0,0.0
+QRIS_STATIC,food_beverage,Semarang,88,35493360.33,0,0.0,0.0
+QRIS_STATIC,food_beverage,Surabaya,242,116268261.08,0,0.0,0.0
+QRIS_STATIC,fuel_gas_station,Bandung,91,16609492.54,1,1.099,316189.91
+QRIS_STATIC,fuel_gas_station,Denpasar,53,11895804.05,0,0.0,0.0
+QRIS_STATIC,fuel_gas_station,Jakarta Pusat,96,19029857.94,0,0.0,0.0
+QRIS_STATIC,fuel_gas_station,Jakarta Selatan,162,32664174.58,0,0.0,0.0
+QRIS_STATIC,fuel_gas_station,Makassar,46,7835367.23,0,0.0,0.0
+QRIS_STATIC,fuel_gas_station,Medan,59,11130227.19,1,1.695,60535.99
+QRIS_STATIC,fuel_gas_station,Semarang,42,8452956.76,0,0.0,0.0
+QRIS_STATIC,fuel_gas_station,Surabaya,106,23271931.96,0,0.0,0.0
+QRIS_STATIC,retail_grocery,Bandung,265,296261540.92,1,0.377,39053.74
+QRIS_STATIC,retail_grocery,Denpasar,176,210189722.14,0,0.0,0.0
+QRIS_STATIC,retail_grocery,Jakarta Pusat,387,395337118.55,1,0.258,88555.42
+QRIS_STATIC,retail_grocery,Jakarta Selatan,499,532335161.51,2,0.401,246133.78
+QRIS_STATIC,retail_grocery,Makassar,154,125036131.47,1,0.649,329532.43
+QRIS_STATIC,retail_grocery,Medan,171,182503053.8,0,0.0,0.0
+QRIS_STATIC,retail_grocery,Semarang,114,133690176.17,1,0.877,132828.3
+QRIS_STATIC,retail_grocery,Surabaya,291,324734462.63,1,0.344,706910.22
+QRIS_STATIC,travel_hospitality,Bandung,59,49739386.75,0,0.0,0.0
+QRIS_STATIC,travel_hospitality,Denpasar,37,22285788.69,0,0.0,0.0
+QRIS_STATIC,travel_hospitality,Jakarta Pusat,73,65946226.97,0,0.0,0.0
+QRIS_STATIC,travel_hospitality,Jakarta Selatan,99,68535644.35,0,0.0,0.0
+QRIS_STATIC,travel_hospitality,Makassar,28,17124889.1,0,0.0,0.0
+QRIS_STATIC,travel_hospitality,Medan,32,19917157.51,0,0.0,0.0
+QRIS_STATIC,travel_hospitality,Semarang,33,17539486.2,0,0.0,0.0
+QRIS_STATIC,travel_hospitality,Surabaya,62,35598213.2,0,0.0,0.0

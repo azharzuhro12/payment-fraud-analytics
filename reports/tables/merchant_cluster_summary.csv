@@ -1,0 +1,5 @@
+segment_name,merchant_count,avg_tx_count,avg_monthly_volume,avg_ticket_size,avg_night_ratio,avg_mobile_online_pct,avg_fraud_rate_pct,recommended_strategy
+High-Volume Enterprise Retailers,351,59.2,234952254.28,3972385.84,6.4,16.3,0.95,"Provide dedicated Key Account Manager, priority settlement SLA, and automated daily clearing."
+Mobile POS & High-Velocity Merchants,343,37.4,55252114.31,1472706.75,22.4,80.3,2.44,"Enforce device GPS geofencing, dynamic velocity rate-limiting & 2FA step-up on high-ticket transfers."
+Night-Active Hospitality & Entertainment,280,23.8,16850928.61,703175.77,53.6,29.4,2.1,Calibrate nocturnal risk window (00:00-05:00 WIB) filters and deploy dynamic QRIS POS terminals.
+Standard Everyday Retail Merchants,526,18.5,3508239.86,189315.35,4.6,10.3,0.32,Standard quarterly EDC preventive maintenance & automated settlement processing.

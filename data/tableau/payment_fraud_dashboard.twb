@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<workbook source-build='2024.1.0' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='1. Channel &amp; City Risk' inline='true' name='federated.channel_risk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='channel_location_risk' name='textscan.channel'>
+            <connection class='textscan' directory='Data' filename='channel_location_risk.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.channel' name='channel_location_risk.csv' table='[channel_location_risk#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='terminal_type' ordinal='0' />
+            <column datatype='string' name='merchant_category' ordinal='1' />
+            <column datatype='string' name='location' ordinal='2' />
+            <column datatype='integer' name='total_transactions' ordinal='3' />
+            <column datatype='real' name='total_volume_idr' ordinal='4' />
+            <column datatype='integer' name='fraud_cases' ordinal='5' />
+            <column datatype='real' name='fraud_rate_pct' ordinal='6' />
+            <column datatype='real' name='fraud_loss_idr' ordinal='7' />
+          </columns>
+        </relation>
+      </connection>
+      <column datatype='string' name='[location]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[terminal_type]' role='dimension' type='nominal' />
+      <column datatype='string' name='[merchant_category]' role='dimension' type='nominal' />
+      <column datatype='real' name='[fraud_rate_pct]' role='measure' type='quantitative' />
+      <column datatype='real' name='[total_volume_idr]' role='measure' type='quantitative' />
+      <column datatype='real' name='[fraud_loss_idr]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[fraud_cases]' role='measure' type='quantitative' />
+    </datasource>
+
+    <datasource caption='2. Hourly Nocturnal Cycle' inline='true' name='federated.hourly_risk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='hourly_fraud_risk' name='textscan.hourly'>
+            <connection class='textscan' directory='Data' filename='hourly_fraud_risk.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.hourly' name='hourly_fraud_risk.csv' table='[hourly_fraud_risk#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='hour_of_day' ordinal='0' />
+            <column datatype='string' name='type' ordinal='1' />
+            <column datatype='integer' name='total_tx' ordinal='2' />
+            <column datatype='integer' name='fraud_cases' ordinal='3' />
+            <column datatype='real' name='fraud_rate_pct' ordinal='4' />
+            <column datatype='real' name='total_volume_idr' ordinal='5' />
+          </columns>
+        </relation>
+      </connection>
+      <column datatype='integer' name='[hour_of_day]' role='dimension' type='quantitative' />
+      <column datatype='string' name='[type]' role='dimension' type='nominal' />
+      <column datatype='real' name='[fraud_rate_pct]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[fraud_cases]' role='measure' type='quantitative' />
+    </datasource>
+
+    <datasource caption='3. Merchant Behavioral Segments' inline='true' name='federated.merchant_segments' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='merchant_segments' name='textscan.segments'>
+            <connection class='textscan' directory='Data' filename='merchant_segments.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.segments' name='merchant_segments.csv' table='[merchant_segments#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='name_dest' ordinal='0' />
+            <column datatype='integer' name='total_tx_count' ordinal='1' />
+            <column datatype='real' name='total_volume' ordinal='2' />
+            <column datatype='real' name='avg_ticket_size' ordinal='3' />
+            <column datatype='real' name='max_ticket_size' ordinal='4' />
+            <column datatype='real' name='night_tx_ratio' ordinal='5' />
+            <column datatype='real' name='mobile_edc_ratio' ordinal='6' />
+            <column datatype='real' name='online_pg_ratio' ordinal='7' />
+            <column datatype='integer' name='fraud_tx_count' ordinal='8' />
+            <column datatype='real' name='observed_fraud_rate' ordinal='9' />
+            <column datatype='real' name='mobile_online_ratio' ordinal='10' />
+            <column datatype='real' name='total_volume_log' ordinal='11' />
+            <column datatype='real' name='avg_ticket_size_log' ordinal='12' />
+            <column datatype='real' name='max_ticket_size_log' ordinal='13' />
+            <column datatype='integer' name='cluster_id' ordinal='14' />
+            <column datatype='string' name='segment_name' ordinal='15' />
+            <column datatype='string' name='recommended_strategy' ordinal='16' />
+            <column datatype='real' name='pca_1' ordinal='17' />
+            <column datatype='real' name='pca_2' ordinal='18' />
+          </columns>
+        </relation>
+      </connection>
+      <column datatype='string' name='[name_dest]' role='dimension' type='nominal' />
+      <column datatype='string' name='[segment_name]' role='dimension' type='nominal' />
+      <column datatype='string' name='[recommended_strategy]' role='dimension' type='nominal' />
+      <column datatype='real' name='[pca_1]' role='measure' type='quantitative' />
+      <column datatype='real' name='[pca_2]' role='measure' type='quantitative' />
+      <column datatype='real' name='[total_volume]' role='measure' type='quantitative' />
+      <column datatype='real' name='[observed_fraud_rate]' role='measure' type='quantitative' />
+    </datasource>
+  </datasources>
+
+  <worksheets>
+    <!-- SHEET 1: TERMINAL RISK HEATMAP -->
+    <worksheet name='Terminal_Risk_Heatmap'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#111827' fontsize='13'>1. Fraud Rate (%) across Terminal Channels &amp; Merchant Categories</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='federated.channel_risk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.channel_risk'>
+            <column datatype='real' name='[fraud_rate_pct]' role='measure' type='quantitative' />
+            <column datatype='string' name='[merchant_category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[terminal_type]' role='dimension' type='nominal' />
+            <column-instance column='[fraud_rate_pct]' derivation='Avg' name='[avg:fraud_rate_pct:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[merchant_category]' derivation='None' name='[none:merchant_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[terminal_type]' derivation='None' name='[none:terminal_type:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view><breakdown value='auto' /></view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.channel_risk].[avg:fraud_rate_pct:qk]' />
+              <text column='[federated.channel_risk].[avg:fraud_rate_pct:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.channel_risk].[none:merchant_category:nk]</rows>
+        <cols>[federated.channel_risk].[none:terminal_type:nk]</cols>
+      </table>
+      <simple-id uuid='{3B986927-4DF8-452A-B981-D623259E2734}' />
+    </worksheet>
+
+    <!-- SHEET 2: HOURLY NOCTURNAL TREND -->
+    <worksheet name='Hourly_Nocturnal_Trend'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#111827' fontsize='13'>2. 24-Hour Nocturnal Fraud Surge by Transaction Type (00:00 - 23:00 WIB)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='federated.hourly_risk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.hourly_risk'>
+            <column datatype='integer' name='[hour_of_day]' role='dimension' type='quantitative' />
+            <column datatype='string' name='[type]' role='dimension' type='nominal' />
+            <column datatype='real' name='[fraud_rate_pct]' role='measure' type='quantitative' />
+            <column-instance column='[hour_of_day]' derivation='None' name='[none:hour_of_day:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[fraud_rate_pct]' derivation='Avg' name='[avg:fraud_rate_pct:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view><breakdown value='auto' /></view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.hourly_risk].[none:type:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.hourly_risk].[avg:fraud_rate_pct:qk]</rows>
+        <cols>[federated.hourly_risk].[none:hour_of_day:qk]</cols>
+      </table>
+      <simple-id uuid='{7A112345-8B12-4C33-9D44-E56789ABC001}' />
+    </worksheet>
+
+    <!-- SHEET 3: CITY VOLUME AND FRAUD LOSS -->
+    <worksheet name='City_Volume_and_Loss'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#111827' fontsize='13'>3. Gross Settlement Volume &amp; Fraud Loss Exposure by City</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='federated.channel_risk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.channel_risk'>
+            <column datatype='real' name='[fraud_loss_idr]' role='measure' type='quantitative' />
+            <column datatype='string' name='[location]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='real' name='[total_volume_idr]' role='measure' type='quantitative' />
+            <column-instance column='[fraud_loss_idr]' derivation='Sum' name='[sum:fraud_loss_idr:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[total_volume_idr]' derivation='Sum' name='[sum:total_volume_idr:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view><breakdown value='auto' /></view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.channel_risk].[sum:fraud_loss_idr:qk]' />
+              <tooltip column='[federated.channel_risk].[sum:total_volume_idr:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.channel_risk].[none:location:nk]</rows>
+        <cols>[federated.channel_risk].[sum:total_volume_idr:qk]</cols>
+      </table>
+      <simple-id uuid='{8C991204-7162-4BA1-8BE4-C67027BCE3B2}' />
+    </worksheet>
+
+    <!-- SHEET 4: MERCHANT CLUSTER PCA SCATTER -->
+    <worksheet name='Merchant_Cluster_PCA'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#111827' fontsize='13'>4. K-Means Merchant Behavioral Segmentation (2D PCA Projection of 1,500 Merchants)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='federated.merchant_segments' />
+          </datasources>
+          <datasource-dependencies datasource='federated.merchant_segments'>
+            <column datatype='string' name='[name_dest]' role='dimension' type='nominal' />
+            <column datatype='string' name='[segment_name]' role='dimension' type='nominal' />
+            <column datatype='real' name='[pca_1]' role='measure' type='quantitative' />
+            <column datatype='real' name='[pca_2]' role='measure' type='quantitative' />
+            <column datatype='real' name='[total_volume]' role='measure' type='quantitative' />
+            <column-instance column='[name_dest]' derivation='None' name='[none:name_dest:nk]' pivot='key' type='nominal' />
+            <column-instance column='[segment_name]' derivation='None' name='[none:segment_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[pca_1]' derivation='Avg' name='[avg:pca_1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[pca_2]' derivation='Avg' name='[avg:pca_2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total_volume]' derivation='Sum' name='[sum:total_volume:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view><breakdown value='auto' /></view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.merchant_segments].[none:segment_name:nk]' />
+              <lod column='[federated.merchant_segments].[none:name_dest:nk]' />
+              <tooltip column='[federated.merchant_segments].[sum:total_volume:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.merchant_segments].[avg:pca_2:qk]</rows>
+        <cols>[federated.merchant_segments].[avg:pca_1:qk]</cols>
+      </table>
+      <simple-id uuid='{9D223456-1E23-4F55-8A66-F78901BCD002}' />
+    </worksheet>
+  </worksheets>
+
+  <dashboards>
+    <dashboard name='Payment_Fraud_Executive_Dashboard'>
+      <style />
+      <size maxheight='900' maxwidth='1400' minheight='900' minwidth='1400' />
+      <zones>
+        <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='11' param='vert' type-v2='layout-flow' w='98000' x='1000' y='1000'>
+            <zone h='9000' id='1' type-v2='text' w='98000' x='1000' y='1000'>
+              <formatted-text>
+                <run bold='true' fontcolor='#1E3A8A' fontsize='20'>Payment Analytics &amp; Fraud Detection System</run>
+                <run fontsize='11'>&#10;Executive Monitoring of Terminal Channels, 24-Hour Nocturnal Anomalies, City Fraud Exposure &amp; 4-Cluster Merchant Segmentation</run>
+              </formatted-text>
+            </zone>
+            <zone h='44500' id='2' name='Terminal_Risk_Heatmap' show-title='true' w='49000' x='1000' y='10000' />
+            <zone h='44500' id='3' name='Hourly_Nocturnal_Trend' show-title='true' w='49000' x='50000' y='10000' />
+            <zone h='44500' id='4' name='City_Volume_and_Loss' show-title='true' w='49000' x='1000' y='54500' />
+            <zone h='44500' id='5' name='Merchant_Cluster_PCA' show-title='true' w='49000' x='50000' y='54500' />
+          </zone>
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='dashboard' maximized='true' name='Payment_Fraud_Executive_Dashboard'>
+      <viewpoints />
+      <active id='-1' />
+    </window>
+  </windows>
+</workbook>

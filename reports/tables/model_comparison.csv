@@ -1,0 +1,6 @@
+model,cv_roc_auc_mean,cv_pr_auc_mean,test_roc_auc,test_pr_auc,test_precision,test_recall,test_f1
+LogisticRegression,0.9794,0.7774,0.9818,0.7396,0.1555,0.9412,0.2669
+RandomForest,0.9815,0.8163,0.9842,0.7843,0.1327,0.9559,0.233
+LightGBM,0.9823,0.8467,0.9868,0.83,0.4232,0.8309,0.5608
+XGBoost,0.9842,0.8541,0.9871,0.8335,0.4109,0.8309,0.5499
+Stacking_Ensemble,0.9845,0.8547,0.9861,0.8336,0.7535,0.7868,0.7698
