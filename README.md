@@ -121,7 +121,6 @@ payment-fraud-analytics/
 ├── Dockerfile                           # Definisi kontainer produksi
 ├── TABLEAU_GUIDE.md                     # Panduan pembuatan visualisasi Tableau Public
 ├── requirements.txt                     # Daftar dependensi Python
-├── run_all.sh                           # Skrip eksekusi end-to-end seluruh pipeline
 └── README.md
 ```
 
@@ -146,12 +145,6 @@ source venv/bin/activate  # Linux/macOS
 
 # Instal seluruh pustaka pendukung
 pip install -r requirements.txt
-```
-
-### 3. Eksekusi Pipeline Otomatis (ETL s.d. Training)
-Jalankan skrip bash terpadu untuk mengeksekusi pipeline dari awal hingga siap saji:
-```bash
-bash run_all.sh
 ```
 
 ---
