@@ -18,7 +18,6 @@
 </p>
 
 - **Live Tableau Public Dashboard:** [Payment Analytics & Fraud Detection Dashboard — Tableau Public](https://public.tableau.com/app/profile/azhar.zuhro/viz/PaymentAnalyticsFraudDetectionDashboard/aymentAnalyticsFraudDetectionDashboard)
-- **Video Demo Resolusi Penuh (MP4):** [reports/figures/demo.mp4](reports/figures/demo.mp4)
 
 ---
 
